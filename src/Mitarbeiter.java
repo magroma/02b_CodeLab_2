@@ -20,12 +20,12 @@ public class Mitarbeiter {
             case "#function":
             return this.function;
             case "#entryYear":
-            return this.checkEntryYear();
+            return Integer.toString(this.entryYear);
             default:
             return "arbeitet hier nicht!";
         }
     }
-    private String checkEntryYear() {
-        return Integer.toString(this.entryYear);
-    }
+    // private String checkEntryYear() {
+    //     return Integer.toString(this.entryYear);
+    // }
 }
